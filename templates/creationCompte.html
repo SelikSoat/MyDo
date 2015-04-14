@@ -2,7 +2,7 @@
 <html>    
     <head>
         <meta charset="utf-8">
-        <title>PAGE D'ACCUEIL</title>
+        <title>PAGE DE SOUSCRIPTION</title>
         <link href="C:\Users\Formation\Desktop\INTERCONTRAT\PROJET 1\bootstrap\css\bootstrap.css"  rel="stylesheet">
         <link href="C:\Users\Formation\Desktop\INTERCONTRAT\PROJET 1\css\main.css"  rel="stylesheet">
     </head>
@@ -10,7 +10,6 @@
         <div class="container">
             <header id="entete" class="page-header"/>             
             </header> 
-
             <nav id="menus" class="navbar-default">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
@@ -19,17 +18,14 @@
                     <li><a href="#">Page 3</a></li>
                 </ul>
             </nav>
-
             <section>
-                <div class="authent">
-                    <label class="colorLabel">Utilisateur:</label>
-                    <input placeholder="Tapez votre pseudo"></input>
-                    <label class="colorLabel">Mot de passe:</label>
-                    <input placeholder="Tapez votre mot de passe"></input>
-                    <button type="submit">Valider</button>
-                    <button type="submit" onclick="mdpForm()">Mot de passe oublié?</button>
-                    <button type="submit" onclick="newUserFrom()">Nouvel utilisateur?</button>
-                </div>
+                <form id="souscription">
+                        <p class="colorLabel">Votre email</p>
+                        <input placeholder="Tapez votre email"></input>
+                        <p class="colorLabel">Mot de passe</p>
+                        <input placeholder="Tapez votre mot de passe"></input>
+                        <button type="submit">CREER</button>
+                </form>
             </section>
         </div>
         <script src="C:\Users\Formation\Desktop\INTERCONTRAT\PROJET 1\bootstrap\js\bootstrap.js"></script>
