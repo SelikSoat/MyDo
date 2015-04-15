@@ -55,7 +55,7 @@
 }
 
 #souscription {
-   position:absolute;
+   position:fixed;
    border-radius: 5px;
    border-color: dodgerblue;
    top:50%;
